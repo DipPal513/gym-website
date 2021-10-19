@@ -9,4 +9,4 @@
 <li>good color combination used</li>
 </ul>
 
-live site link : 
+live site link : https://simple-gym-website.web.app/
