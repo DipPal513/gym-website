@@ -1,0 +1,11 @@
+.service-btn{
+    border: 0;
+    padding: 10px 30px;
+    color: white;
+    background:  #b60000;
+    transform: skew(-5deg);
+}
+.service-btn a{
+    color: #fff;
+    text-decoration: none;
+}

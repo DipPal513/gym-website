@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "body building",
+    "description": "You’ll look at graphs and charts in Task One, how to approach the task",
+    "price": "$80",
+    "img": "https://preview.colorlib.com/theme/zacson/assets/img/gallery/xteam1.png.pagespeed.ic.Gp8wmILw3q.webp"
+  },
+  {
+    "id": 2,
+    "name": "muscle gain",
+    "description": "You’ll look at graphs and charts in Task One, how to approach the task",
+    "price": "$45",
+    "img": "https://preview.colorlib.com/theme/zacson/assets/img/gallery/xteam2.png.pagespeed.ic.Bjc_cv1qrB.webp"
+  },
+  {
+    "id": 3,
+    "name": "GROUP TRAINING",
+    "description": "we are offering group training so that you can workout teamwise",
+    "price": "$78",
+    "img": "https://media.istockphoto.com/photos/picture-of-people-running-on-treadmill-in-gym-picture-id879180126?b=1&k=20&m=879180126&s=170667a&w=0&h=kPv75o43iiBMO47xqiV5uIuJhan5jD4lw6B6a8ZIDUc="
+  },
+  {
+    "id": 4,
+    "name": "personal training",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$100",
+    "img": "https://static.wixstatic.com/media/913019_47bbd7b4dc6d47009b1d34a1fbf2493e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_635,h_772,al_c,q_85,usm_0.66_1.00_0.01/913019_47bbd7b4dc6d47009b1d34a1fbf2493e~mv2_d_5184_3456_s_4_2.webp"
+  },
+  {
+    "id": 5,
+    "name": "6 week transformation",
+    "description": "Trial JDarPT for 6 weeks and start seeing some amazing results. You’ll have the option of trying personal training, as well as group training online or at our studio. Other services include nutrition support",
+    "price": "$120",
+    "img": "https://static.wixstatic.com/media/913019_3935b2f4f25a494b843258ff1b9c447a~mv2_d_3993_2832_s_4_2.jpg/v1/fill/w_666,h_757,al_c,q_85,usm_0.66_1.00_0.01/913019_3935b2f4f25a494b843258ff1b9c447a~mv2_d_3993_2832_s_4_2.webp"
+  },
+  {
+    "id": 6,
+    "name": "for the kids",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$150",
+    "img": "https://media.istockphoto.com/photos/join-us-to-see-results-portrait-of-a-boy-smiling-while-warming-up-picture-id1224688156?b=1&k=20&m=1224688156&s=170667a&w=0&h=8XD2wgNFL8TQO5RbSrMVL5xuIEHLfEYEyFx4B_WyE7Q="
+  },
+  {
+    "id": 7,
+    "name": "personal training",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$100",
+    "img": "https://static.wixstatic.com/media/913019_47bbd7b4dc6d47009b1d34a1fbf2493e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_635,h_772,al_c,q_85,usm_0.66_1.00_0.01/913019_47bbd7b4dc6d47009b1d34a1fbf2493e~mv2_d_5184_3456_s_4_2.webp"
+  },
+  {
+    "id":8,
+    "name": "yoga classis",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$179",
+    "img": "https://images.unsplash.com/photo-1562088287-bde35a1ea917?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYXxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id":9,
+    "name": "abs training",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$200",
+    "img": "https://images.unsplash.com/photo-1591089627083-d9d049d833f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+
+  {
+    "id":10,
+    "name": "perfect leg",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$79",
+    "img": "https://images.unsplash.com/photo-1543761049-4a134358c6b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGVnJTIwaW4lMjBneW18ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+
+  {
+    "id":11,
+    "name": "shreded back",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$55",
+    "img": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFjayUyMGluJTIwZ3ltfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+
+  {
+    "id":12,
+    "name": "full body",
+    "description": "Choose from 30, 45 or 60 minute personal training sessions. Our expert coaches will give you all the support you need to perform exercises",
+    "price": "$199",
+    "img": "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxlZyUyMGluJTIwZ3ltfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  }
+]

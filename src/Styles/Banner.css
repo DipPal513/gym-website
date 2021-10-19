@@ -1,0 +1,36 @@
+/* .carousel-item{
+    height: 80vh;
+} */
+/* .carousel-inner{
+    max-height: 80vh;
+} */
+.carousel-caption {
+    bottom: 39%;   
+}
+.banner-title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px){
+    .banner-title{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .carousel-caption {
+        bottom: 20%;   
+    }
+}
+@media screen and (max-width:425px) {
+    .carousel-caption {
+        bottom: 0%;   
+    }
+    .banner-title{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-with:330px){
+    .carousel-caption p{
+        display: none;
+    }
+}
