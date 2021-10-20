@@ -16,7 +16,7 @@ const ServiceDetail = () => {
         <div className="col-lg-5">
           {data
             ? data.map((service) =>
-                serviceId == service.id ? (
+                serviceId === service.id ? (
                   <SingleServiceDetail key={service.id} {...service} />
                 ) : (
                   ""

@@ -11,7 +11,7 @@ const SingleServiceDetail = ({ img, description, price, id, name }) => {
            {description}
           </p>
           <h5>price: {price}</h5>
-          <a href="#" class="btn btn-primary">
+          <a href="#btn" class="btn btn-primary">
             Buy Now
           </a>
         </div>

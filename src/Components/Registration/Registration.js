@@ -4,17 +4,15 @@ import useAuth from "../../Hooks/useAuth";
 import { useHistory } from "react-router-dom";
 import {
   getAuth,
-  signInWithPopup,
-  GoogleAuthProvider,
-  onAuthStateChanged,
+  
   createUserWithEmailAndPassword,
-  signOut,
+
   updateProfile,
-  signInWithEmailAndPassword,
+
 } from "firebase/auth";
 import { Link } from "react-router-dom";
 const Registration = () => {
-  const { setError, error, user, setIsloading, setUser } = useAuth();
+  const { setError, error, setIsloading, setUser } = useAuth();
   const auth = getAuth();
   const history = useHistory();
   const [email, setEmail] = useState("");

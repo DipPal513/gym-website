@@ -4,17 +4,15 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   onAuthStateChanged,
-  createUserWithEmailAndPassword,
   signOut,
-  updateProfile,
-  signInWithEmailAndPassword,
+
 } from "firebase/auth";
 import initializeAuth from "../firebase/firebase.init";
-import { useHistory } from "react-router-dom";
+
 const useFirebase = () => {
   initializeAuth();
   const auth = getAuth();
-  let history = useHistory();
+
   const googleProvider = new GoogleAuthProvider();
   const [user, setUser] = useState({});
   const [isLoading, setIsloading] = useState(true);

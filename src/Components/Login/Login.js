@@ -2,17 +2,10 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { useHistory, useLocation } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
-import { Button, Modal } from "react-bootstrap";
+
 import { FcGoogle } from "react-icons/fc";
 import {
   getAuth,
-  // signInWithPopup,
-  // GoogleAuthProvider,
-  // onAuthStateChanged,
-  // createUserWithEmailAndPassword,
-  // signOut,
-  // updateProfile,
-
   signInWithEmailAndPassword,
 } from "firebase/auth";
 const Login = () => {

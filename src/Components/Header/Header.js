@@ -1,39 +1,45 @@
 import React from "react";
 import { Container, Modal, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
-import {useHistory} from 'react-router-dom';
+import { useHistory } from "react-router-dom";
+
 const Header = () => {
   const history = useHistory();
   const { user, logOut } = useAuth();
 
   function handleLogOut() {
     logOut();
-    history.push('/login');
+    history.push("/login");
   }
   return (
-    <Navbar expand="lg"  variant="light" bg="light" className = 'shadow' fixed="top">
+    <Navbar
+      expand="lg"
+      variant="light"
+      bg="light"
+      className="shadow"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="#home">
           Get <span className="text-danger fw-bold">ShApe</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto" >
-            <Nav.Link as={Link} to="/home">
+          <Nav className="ms-auto">
+            <Nav.Link as={NavLink} activeClassName="selectedNav" to="/home">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/service">
+            <Nav.Link as={NavLink} activeClassName="selectedNav" to="/service">
               Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
+            <Nav.Link as={NavLink} activeClassName="selectedNav" to="/contact">
               Contact Us
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/about">
+            <Nav.Link as={NavLink} activeClassName="selectedNav" to="/about">
               About Us
             </Nav.Link>
-            
 
             {user.email ? (
               <>
@@ -57,9 +63,13 @@ const Header = () => {
                 login
               </Nav.Link>
             )}
-            {user.email ? '' :<Nav.Link as={Link} to="/registration">
-              Registration
-            </Nav.Link>}
+            {user.email ? (
+              ""
+            ) : (
+              <Nav.Link as={Link} to="/registration">
+                Registration
+              </Nav.Link>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
