@@ -8,21 +8,19 @@ const ServiceDetail = () => {
   useEffect(() => {
     fetch("../../fakeData.json")
       .then((res) => res.json())
-      .then((d) => setData(d));
-  }, []);
+      .then((d) => {
+        const exactData = d?.find(td => td.id == serviceId);
+        setData(exactData)
+      
+      });
+  }, [serviceId]);
+
+
     return (
     <div className="container text-center mt-5">
       <div className="row align-items-center justify-content-center">
         <div className="col-lg-5">
-          {data
-            ? data.map((service) =>
-                serviceId === service.id ? (
-                  <SingleServiceDetail key={service.id} {...service} />
-                ) : (
-                  ""
-                )
-              )
-            : ""}
+          <SingleServiceDetail key = {Math.random()*2000000}{...data}/>
         </div>
       </div>
     </div>
