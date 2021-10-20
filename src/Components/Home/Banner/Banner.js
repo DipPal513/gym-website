@@ -7,7 +7,7 @@ const Banner = () => {
       <Carousel style={{ marginTop: "50px" }}>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 h-100"
             src="https://media.istockphoto.com/photos/rear-view-of-athletic-man-exercising-pullups-in-a-gym-picture-id1128859123?b=1&k=20&m=1128859123&s=170667a&w=0&h=Nw00nCpxOp_i_ZIRFub28aSg45STA1wzYI5ryikCEAE="
             alt="First slide"
           />
